@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+body{
+	background-image: url(../Img/car.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clear{
+	clear: both;
+}
+
+.title{
+	text-align: center;
+	padding-top: 15%;
+}
+
+.title h1{
+	font-size: 60px;
+	color: #fff;
+}
+
+
+.title p{
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+.title button{
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	padding: 5px;
+}
+
+.title button:hover{
+	background-color: red;
+}
+
+
+.title .left {
+	float: left;
+}
+
+.title .left i{
+	color: red;
+}
+
+.title .left button{
+	background-color: #fff;
+	font-size: 30px;
+}
+
+.title .right{
+	float: right;
+}
+
+
+.title .right i{
+	color: red;
+}
+
+.title .right button{
+	background-color: #fff;
+	font-size: 30px;
+}
+
+.title .clok i{
+	color: #fff;
+}
+
+.title .clok button{
+	color: #fff;
+	background-color: red;
+	border: 1px solid red;
+	font-size: 40px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 200px;
+}
+
+.chas {
+	color: #fff;
+}
+
+.chas button{
+	border: 1px solid red;
+	background-color: red;
+	font-size: 20px;
+	border-radius: 20%;
+	position: absolute;
+	bottom: 0;
+	margin: 0px -115px;
+}
